@@ -20,9 +20,14 @@ This folder contains the control code developed for the autonomous navigation of
 
 ### **Autonomous Drone Challenge**
 
-(Code pending specification)
+This folder contains the complete control code developed for the autonomous navigation of a drone in a rescue mission:
 
-* **[The codes and their descriptions will be listed here once defined.]**
+* **Fast approach to the rescue zone**: Implementation of the fast approach, using set cmd_vel and PID for altitude.
+  
+* **Precise approach to the rescue zone**: Implementation of the precise approach, using set cmd_pos.
+
+* **Spiral and FaceDetection**: A set of functions for doing a spiral movement over the impact zone, detecting and counting faces in the process.
+
 
 ---
 
@@ -107,3 +112,7 @@ PID Simulation Example
 ![](https://github.com/JoelRamosBeltran/Laboratory-of-Cyber-physical-and-Robotic-Intelligent-Systems/blob/main/Autonomous%20Racing%20Challenge/photos/mejor_PID.png)
 
 ### **Autonomous Drone Challenge**
+
+Six faces detected and Drone Returned to base
+
+![](https://github.com/JoelRamosBeltran/Laboratory-of-Cyber-physical-and-Robotic-Intelligent-Systems/blob/main/Autonomous%20Drone%20Challenge/6_caras_vueltabase.png)
